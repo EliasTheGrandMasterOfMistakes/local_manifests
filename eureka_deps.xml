@@ -9,6 +9,9 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
                 revision="master"/>
+	<remote name="pixel"
+		fetch="https://github.com/PixelOS-Devices" />
+	
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linage" revision="lineage-21" />
@@ -19,12 +22,12 @@
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="linage" revision="lineage-21" />
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="linage"/>
+        <project path="hardware/samsung" name="hardware_samsung" remote="pixel" revision="thirteen" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
         <!-- SLSI Linaro -->
-	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="linage" />
-	<project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linage" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linage" />
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linage" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linage" />
+	<project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="pixel" />
+	<project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="pixel" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="pixel" />
+        <project path="hardware/samsung_slsi-linaro/config" name="hardware_samsung_slsi-linaro_config" remote="pixel" />
+        <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="pixel" />
 </manifest>
