@@ -25,9 +25,9 @@
         <project path="hardware/samsung" name="hardware_samsung" remote="pixel" revision="thirteen" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
         <!-- SLSI Linaro -->
-	<project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="pixel" />
-	<project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="pixel" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="pixel" />
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linage" />
+	<project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="pixel" revision="fourteen"  />
+	<project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="pixel" revision="fourteen"  />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="pixel" revision="fourteen"  />
+        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linage"  />
         <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="pixel" revision="fourteen" />
 </manifest>
