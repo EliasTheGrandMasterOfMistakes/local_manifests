@@ -28,6 +28,6 @@
 	<project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="pixel" />
 	<project path="hardware/samsung_slsi-linaro/interfaces" name="hardware_samsung_slsi-linaro_interfaces" remote="pixel" />
         <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="pixel" />
-        <project path="hardware/samsung_slsi-linaro/config" name="hardware_samsung_slsi-linaro_config" remote="pixel" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="pixel" />
+        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linage" />
+        <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="pixel" revision="fourteen" />
 </manifest>
