@@ -7,7 +7,7 @@
                 fetch="https://github.com/LineageOS"
 		revision="lineage-21" />
         <remote name="royna"
-                fetch="https://github.com/linages-Android-Playground"
+                fetch="https://github.com/Roynas-Android-Playground"
                 revision="master"/>
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
